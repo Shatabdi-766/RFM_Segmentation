@@ -134,3 +134,18 @@ USE RFM_SALES;
 - **PRODUCTLINE**: Category of the product (e.g., Motorcycles).
 - **CUSTOMERNAME**: Name of the customer.
 - **DEALSIZE**: Size of the deal (e.g., Small, Medium).
+
+  
+## Total Number of Records :
+  ```sql
+  -- NO OF RECORDS
+  SELECT COUNT(ORDERNUMBER) as Total_Records
+  FROM sales_data_for_rfm_segmentation; 
+   ```
+  --Output--
+  | Total_Records |
+  |----------|
+  | 2823     |
+  
+- The dataset contains a total of 2,823 records based on the ORDERNUMBER field. This indicates there are 2,823 orders in the sales data, which can be used as the foundation for further RFM (Recency, Frequency, Monetary) segmentation analysis.
+
