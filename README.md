@@ -12,3 +12,6 @@ RFM Segmentation with SQL This repository contains a project for customer segmen
 - MySQL
 
 ### Dataset :
+### Dataset
+The dataset used in this project is available in CSV format.
+(./).
