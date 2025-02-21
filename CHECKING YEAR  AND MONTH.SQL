@@ -1,0 +1,5 @@
+-- CHECKING YEAR AND MONTH
+SELECT  YEAR_ID, COUNT(distinct MONTH_ID)
+FROM sales_data_for_rfm_segmentation
+GROUP BY 1
+ORDER BY 1 DESC;

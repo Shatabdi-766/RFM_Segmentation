@@ -1,0 +1,7 @@
+
+1.  grouping sales by product line
+2. What was the best month for sales in a specific year? How much was earned that month? 
+3. November seems to be the month, what product did they sell in November, Classic I believe
+4. Who is our best customer (this could be best answered with RFM)
+5. RFM SEGMENTATION: SEGMENTING YOUR CUSTOMER BASEN ON RECENCY (R), FREQUENCY (F), AND MONETARY (M) SCORES
+6. Range of Transaction is 876 Days

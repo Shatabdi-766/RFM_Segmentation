@@ -1,0 +1,3 @@
+-- NO OF DISTINCT CUSTOMER
+SELECT COUNT(DISTINCT ORDERNUMBER)
+FROM sales_data_for_rfm_segmentation; 

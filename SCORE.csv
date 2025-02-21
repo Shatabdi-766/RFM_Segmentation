@@ -1,0 +1,93 @@
+CUSTOMERNAME,MonetaryValue,Frequency,Recency,RFM_RECENCY_SCORE,RFM_FREQUENCY_SCORE,RFM_MONETARY_SCORE
+"Boards & Toys Co.",9129,2,-7017,2,1,1
+"Atelier graphique",24180,3,-7092,3,2,1
+"Auto-Moto Classics Inc.",26479,3,-7084,2,2,1
+"Microscale Inc.",33145,2,-7114,3,1,1
+"Royale Belge",33440,4,-7046,2,4,1
+"Bavarian Collectables Imports, Co.",34994,1,-7163,4,1,1
+"Double Decker Gift Stores, Ltd",36019,2,-7400,4,2,1
+"Cambridge Collectables Co.",36164,2,-7293,4,1,1
+"West Coast Collectables Co.",46085,2,-7393,4,2,1
+"Men 'R' US Retailers, Ltd.",48048,2,-7413,4,2,1
+"CAF Imports",49642,2,-7343,4,1,1
+"Signal Collectibles Ltd.",50219,2,-7381,4,2,1
+"Mini Auto Werke",52264,3,-6987,2,2,1
+"Iberia Gift Imports, Corp.",54724,2,-7142,4,1,1
+"Online Mini Collectables",57198,2,-7168,4,1,1
+"Gift Ideas Corp.",57294,3,-7083,2,2,1
+"Clover Collections, Co.",57756,2,-7162,4,1,1
+"Australian Gift Network, Co",59469,3,-7023,2,2,1
+"Australian Collectables, Ltd",64591,3,-6927,1,3,1
+"Auto Assoc. & Cie.",64834,2,-7137,4,1,1
+"Classic Gift Ideas, Inc",67507,2,-7134,3,1,1
+"Osaka Souveniers Co.",67605,2,-7318,4,1,1
+"Daedalus Designs Imports",69052,2,-7370,4,2,1
+"Alpha Cognac",70488,3,-6969,1,2,2
+"Diecast Collectables",70860,2,-7305,4,1,2
+"Quebec Home Shopping Network",74205,3,-6935,1,3,2
+"Mini Wheels Co.",74476,3,-7099,3,3,2
+"Royal Canadian Collectables, Ltd.",74635,2,-7189,4,1,2
+"Marseille Mini Autos",74936,3,-7050,2,2,2
+"Petit Auto",74973,3,-6906,1,3,2
+"Canadian Gift Exchange Network",75239,2,-7126,3,1,2
+"Volvo Model Replicas, Co",75755,4,-7098,3,4,2
+"Classic Legends Inc.",77795,3,-7096,3,3,2
+giftsbymail.co.uk,78241,2,-7116,3,1,2
+"Enaco Distributors",78412,3,-7093,3,3,2
+"Lyon Souveniers",78570,3,-6980,1,3,2
+"Norway Gifts By Mail, Co.",79224,2,-7188,4,1,2
+"Super Scale Inc.",79472,2,-7297,4,1,2
+"Mini Caravy",80438,3,-6952,1,3,2
+"Collectables For Less Inc.",81578,3,-7036,2,2,2
+"Signal Gift Stores",82751,3,-7088,2,2,2
+Gifts4AllAges.com,83210,3,-6930,1,3,2
+"Tekni Collectables Inc.",83228,3,-6963,1,4,2
+"Motor Mint Distributors Inc.",83682,3,-7100,3,3,2
+"Blauer See Auto, Co.",85172,4,-7112,3,4,2
+"Mini Classics",85556,2,-7133,3,1,2
+"Collectable Mini Designs Co.",87489,2,-7365,4,2,3
+"Vitachrome Inc.",88041,3,-7112,3,3,3
+"Stylish Desk Decors, Co.",88805,3,-7084,2,2,3
+"Auto Canal Petit",93171,3,-6959,1,3,3
+"Cruz & Sons Co.",94016,3,-7101,3,3,3
+"Amica Models & Co.",94117,2,-7169,4,1,3
+"La Corne D'abondance, Co.",97204,3,-7097,3,3,3
+FunGiftIdeas.com,98924,3,-6994,2,2,3
+"Toms Spezialitten, Ltd",100307,2,-7132,3,1,3
+"Heintze Collectables",100596,2,-7126,3,1,3
+"Gift Depot Inc.",101895,3,-6931,1,3,3
+"Marta's Replicas Co.",103080,2,-7135,4,1,3
+"Oulu Toy Supplies, Inc.",104370,3,-7025,2,2,3
+Toys4GrownUps.com,104562,3,-7044,2,2,3
+"Mini Creations Ltd.",108951,3,-7049,2,2,3
+"Toys of Finland, Co.",111250,3,-7016,2,2,3
+"Herkku Gifts",111640,3,-7175,4,3,3
+"Suominen Souveniers",113961,3,-7050,2,2,3
+"Handji Gifts& Co",115499,4,-6943,1,4,3
+"Baane Mini Imports",116599,4,-7112,3,4,3
+"Vida Sport, Ltd",117714,2,-7179,4,1,3
+"UK Collectables, Ltd.",118008,3,-6958,1,3,3
+"Tokyo Collectables, Ltd",120563,4,-6944,1,4,3
+"Corrida Auto Replicas, Ltd",120615,3,-7116,3,3,4
+"Technics Stores Inc.",120783,4,-7051,2,4,4
+"Diecast Classics Inc.",122138,4,-6906,1,4,4
+"Online Diecast Creations Co.",131685,3,-7113,3,3,4
+"Scandinavian Gift Ideas",134259,3,-6994,2,2,4
+"Reims Collectables",135043,5,-6967,1,4,4
+"Rovelli Gifts",137956,3,-7105,3,3,4
+"L'ordine Souveniers",142601,3,-6926,1,3,4
+"Saveley & Henriot, Co.",142874,3,-7360,4,3,4
+"Danish Wholesale Imports",145042,5,-6951,1,4,4
+"Salzburg Collectables",149799,4,-6919,1,4,4
+"Corporate Gift Ideas Co.",149883,4,-7002,2,4,4
+"Souveniers And Things Co.",151571,4,-6907,1,4,4
+"Anna's Decorations, Ltd",153996,4,-6988,2,4,4
+"AV Stores, Co.",157808,3,-7100,3,3,4
+"The Sharp Gifts Warehouse",160010,4,-6944,1,4,4
+"Land of Toys Inc.",164069,4,-7102,3,4,4
+"Dragon Souveniers, Ltd.",172990,5,-6995,2,4,4
+"La Rochelle Gifts",180125,4,-6905,1,4,4
+"Muscle Machine Inc",197737,4,-7086,2,4,4
+"Australian Collectors, Co.",200995,5,-7088,2,4,4
+"Mini Gifts Distributors Ltd.",654858,17,-6907,1,4,4
+"Euro Shopping Channel",912294,26,-6905,1,4,4

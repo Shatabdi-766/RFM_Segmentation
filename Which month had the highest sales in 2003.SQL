@@ -1,0 +1,6 @@
+-- Which month had the highest sales in 2003?
+SELECT PRODUCTLINE, COUNT(ORDERNUMBER) AS FREQUENCY, ROUND(SUM(SALES),2) AS REVENUE, MONTH_ID
+FROM sales_data_for_rfm_segmentation
+WHERE YEAR_ID = 2003
+GROUP BY 1,4
+ORDER BY 3 DESC;
