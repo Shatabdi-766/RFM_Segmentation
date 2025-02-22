@@ -149,3 +149,4 @@ USE RFM_SALES;
   
 - The dataset contains a total of 2,823 records based on the ORDERNUMBER field. This indicates there are 2,823 orders in the sales data, which can be used as the foundation for further RFM (Recency, Frequency, Monetary) segmentation analysis.
 
+## 
