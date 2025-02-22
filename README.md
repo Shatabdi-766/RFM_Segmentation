@@ -870,17 +870,17 @@ ORDER BY 2 DESC;
 
 1. **Cannot Be Defined (42 customers):** A large portion of customers lack clear segmentation, indicating a need for better data collection or analysis to understand their behavior.
 
-2.**Churned Customers (19 customers):** Nearly 20 customers have stopped engaging, representing a significant loss in potential revenue.
+2. **Churned Customers (19 customers):** Nearly 20 customers have stopped engaging, representing a significant loss in potential revenue.
 
-3.**Potential Churners (10 customers):** 10 customers are at risk of leaving, requiring immediate retention efforts.
+3. **Potential Churners (10 customers):** 10 customers are at risk of leaving, requiring immediate retention efforts.
 
-4.**Active (8 customers):** A small group of customers are actively engaging with the business.
+4. **Active (8 customers):** A small group of customers are actively engaging with the business.
 
-5.**Loyal (7 customers):** 7 customers are highly loyal and valuable, contributing consistently to revenue.
+5. **Loyal (7 customers):** 7 customers are highly loyal and valuable, contributing consistently to revenue.
 
-6.**Slipping Away, Cannot Lose (6 customers):** 6 customers are disengaging but are still valuable and should be prioritized for retention.
+6. **Slipping Away, Cannot Lose (6 customers):** 6 customers are disengaging but are still valuable and should be prioritized for retention.
 
-- **Actionable Steps:**
+-  **Actionable Steps:**
 
 1. **Focus on Retention:** Prioritize Potential Churners and Slipping Away customers with targeted campaigns to prevent further loss.
 
@@ -1213,7 +1213,7 @@ order by 2 desc;
 
 - The analysis reveals a clear distribution of customer risk levels and their corresponding segments:
 
- - **Risk Level Distribution:**
+ -  **Risk Level Distribution:**
 
 1. **High Risk (57 Customers):**
    
