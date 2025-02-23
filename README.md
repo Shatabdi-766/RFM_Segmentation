@@ -12,7 +12,7 @@ RFM Segmentation with SQL This repository contains a project for customer segmen
 - MySQL
 - Python
 
-### Dataset
+### Dataset :
 The dataset used in this project is available in CSV format. You can download it [here](./Sales_Data_for_RFM_Segmentation.csv).
 
 ### Database Setup :
