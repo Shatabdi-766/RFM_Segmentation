@@ -179,8 +179,6 @@ select distinct status from sales_data_for_rfm_segmentation;
 | On Hold    |
 | Resolved   |
 
-- 
-
 ## Number of Years :
 ```sql
 select distinct year_id from sales_data_for_rfm_segmentation;
@@ -302,11 +300,11 @@ LIMIT 5;
   SELECT max(str_to_date(`ORDERDATE_1`,'%d/%m/%y')) AS LASTDATE 
   FROM sales_data_for_rfm_segmentation;
   ```
-  --Output--
- | LASTDATE |
- |----------|
- |2005-05-31|
-
+ --Output--
+| LASTDATE   |
+|------------|
+| 2005-05-31 |
+ 
 ## Earliest Order Date :
 ```sql
 SELECT MIN(str_to_date(`ORDERDATE_1`,'%d/%m/%y')) AS EARLIESTDATE 
@@ -469,10 +467,12 @@ ORDER BY 3 DESC;
 | Motorcycles      | 19        | 64235.65   | 10       |
 | Classic Cars     | 12        | 59873.6    | 4        |
 
-- November had the highest sales in 2003.
-- **Top Performer:** Classic Cars dominate with the highest Frequency (114 orders) and Revenue ($452,924.37) in Month 11 (November), making it the most popular and profitable product line.
-- **Seasonal Trends:** Month 11 (November) shows peak performance across multiple product lines, including Vintage Cars, Trucks and Buses, and Motorcycles, suggesting a potential seasonal spike in sales.
-- **Consistent Revenue:** Classic Cars consistently generate high revenue across multiple months, indicating strong customer demand.
+-  November had the highest sales in 2003.
+-  **Top Performer:** Classic Cars dominate with the highest Frequency (114 orders) and Revenue ($452,924.37) in Month 11 (November), making it the most popular and profitable product 
+    line.
+-  **Seasonal Trends:** Month 11 (November) shows peak performance across multiple product lines, including Vintage Cars, Trucks and Buses, and Motorcycles, suggesting a potential 
+    seasonal spike in sales.
+-  **Consistent Revenue:** Classic Cars consistently generate high revenue across multiple months, indicating strong customer demand.
 
 ## Average Customer :
 ```sql
@@ -503,13 +503,13 @@ order by 5 desc;
 | Souveniers And Things Co.        | 3295               | 46        | 29/5/05      | 4689        |
 | Royale Belge                     | 4180               | 8         | 22/11/04     | 4686        |
 
-- **High-Value Customers:** La Corne D'abondance, Co. has the highest Average Monetary Value ($4,226), indicating high spending per transaction.
+-  **High-Value Customers:** La Corne D'abondance, Co. has the highest Average Monetary Value ($4,226), indicating high spending per transaction.
 
-- **Frequent Buyers:** Saveley & Henriot, Co. and Souveniers And Things Co. have the highest Frequency (41 and 46 orders), showing strong customer loyalty.
+-  **Frequent Buyers:** Saveley & Henriot, Co. and Souveniers And Things Co. have the highest Frequency (41 and 46 orders), showing strong customer loyalty.
 
-- **Recent Activity:** Souveniers And Things Co. has the lowest Recency Days (4,689), indicating the most recent engagement among the listed customers.
+-  **Recent Activity:** Souveniers And Things Co. has the lowest Recency Days (4,689), indicating the most recent engagement among the listed customers.
 
-- **Inactive Customers:** Corrida Auto Replicas, Ltd and Mini Wheels Co. have the highest Recency Days (740,162 and 738,976), suggesting they haven’t made recent purchases.
+-  **Inactive Customers:** Corrida Auto Replicas, Ltd and Mini Wheels Co. have the highest Recency Days (740,162 and 738,976), suggesting they haven’t made recent purchases.
 
 ## Which date has the most orders :
 ```sql
@@ -527,7 +527,8 @@ LIMIT 1;
 |-------------|-----------|-----------|
 | 24/11/04   | 35        | 137644.72  |
 
-- On 24th November 2004, there were 35 orders generating $137,644.72 in revenue, indicating a high-activity day with significant sales. This could be tied to a promotional event, holiday shopping, or seasonal demand.
+- On 24th November 2004, there were 35 orders generating $137,644.72 in revenue, indicating a high-activity day with significant sales. This could be tied to a promotional event, 
+  holiday shopping, or seasonal demand.
 
 ## In 2004 did the highest sales occur in November :
 ```sql
@@ -814,23 +815,24 @@ FROM RFM_SEGMENT;
 
 - The customer segmentation reveals distinct groups based on engagement and loyalty:
 
-1.**Churned Customers:** A significant portion, including Euro Shopping Channel, Mini Gifts Distributors Ltd., and La Rochelle Gifts, are marked as Churned, indicating they have stopped engaging with the business.
+1. **Churned Customers:** A significant portion, including Euro Shopping Channel, Mini Gifts Distributors Ltd., and La Rochelle Gifts, are marked as Churned, indicating they have 
+   stopped engaging with the business.
 
-2.**Potential Churners:** Customers like Corrida Auto Replicas, Ltd and Vitachrome Inc. are at risk of churning and need immediate attention to retain them.
+2.  **Potential Churners:** Customers like Corrida Auto Replicas, Ltd and Vitachrome Inc. are at risk of churning and need immediate attention to retain them.
 
-3.**Active & Loyal Customers:** Blauer See Auto, Co., Motor Mint Distributors Inc., and Mini Caravy are Active or Loyal, representing high-value, engaged customers.
+3.  **Active & Loyal Customers:** Blauer See Auto, Co., Motor Mint Distributors Inc., and Mini Caravy are Active or Loyal, representing high-value, engaged customers.
 
-4.**Slipping Away:** Customers like Tekni Collectables Inc. and Lyon Souveniers are Slipping Away but are still valuable and should not be lost.
+4.  **Slipping Away:** Customers like Tekni Collectables Inc. and Lyon Souveniers are Slipping Away but are still valuable and should not be lost.
 
--**Actionable Steps:**
+-   **Actionable Steps :**
 
-1.**Re-engage Churned Customers:** Offer incentives or personalized campaigns to win them back.
+1. **Re-engage Churned Customers:** Offer incentives or personalized campaigns to win them back.
 
-2.**Retain Potential Churners:** Provide targeted offers or improved customer service to prevent them from leaving.
+2.  **Retain Potential Churners:** Provide targeted offers or improved customer service to prevent them from leaving.
 
-3.**Reward Loyal Customers:** Strengthen relationships with exclusive perks or loyalty programs.
+3.  **Reward Loyal Customers:** Strengthen relationships with exclusive perks or loyalty programs.
 
-4.**Monitor Slipping Away Customers:** Address their concerns and rekindle their interest.
+4.  **Monitor Slipping Away Customers:** Address their concerns and rekindle their interest.
 
 
 ## Numbers of Customer Segment :
@@ -880,7 +882,7 @@ ORDER BY 2 DESC;
 
 6. **Slipping Away, Cannot Lose (6 customers):** 6 customers are disengaging but are still valuable and should be prioritized for retention.
 
--  **Actionable Steps:**
+-  **Actionable Steps :**
 
 1. **Focus on Retention:** Prioritize Potential Churners and Slipping Away customers with targeted campaigns to prevent further loss.
 
@@ -1211,47 +1213,47 @@ order by 2 desc;
 | Low Risk    | 4                    |
 
 
-- The analysis reveals a clear distribution of customer risk levels and their corresponding segments:
+-  The analysis reveals a clear distribution of customer risk levels and their corresponding segments:
 
  -  **Risk Level Distribution:**
 
 1. **High Risk (57 Customers):**
    
-   The majority of customers fall into this category, indicating a significant portion of the customer base is at risk of churning or has already 
+    The majority of customers fall into this category, indicating a significant portion of the customer base is at risk of churning or has already 
     disengaged.
    
-Examples include UK Collectables, Ltd., Dragon Souveniers, Ltd., and Mini Gifts Distributors Ltd., many of whom are marked as Churned Customers or Cannot Be Defined.
+**Examples** include UK Collectables, Ltd., Dragon Souveniers, Ltd., and Mini Gifts Distributors Ltd., many of whom are marked as Churned Customers or Cannot Be Defined.
 
-**Action:** Immediate retention strategies, such as personalized offers, win-back campaigns, or surveys to understand their concerns, are critical.
+- **Action :**  Immediate retention strategies, such as personalized offers, win-back campaigns, or surveys to understand their concerns, are critical.
 
 2. **Medium Risk (31 Customers):**
 
-These customers, such as The Sharp Gifts Warehouse and Corporate Gift Ideas Co., show moderate engagement but are at risk of slipping further.
+   These customers, such as The Sharp Gifts Warehouse and Corporate Gift Ideas Co., show moderate engagement but are at risk of slipping further.
 
-**Action:** Targeted efforts to improve their experience, such as exclusive deals or improved customer service, can help retain them.
+- **Action :** Targeted efforts to improve their experience, such as exclusive deals or improved customer service, can help retain them.
 
 3. **Low Risk (4 Customers):**
 
-A small group of customers, including Diecast Classics Inc. and Marta's Replicas Co., are Active or Loyal and represent stable, low-risk relationships.
+  A small group of customers, including Diecast Classics Inc. and Marta's Replicas Co., are Active or Loyal and represent stable, low-risk relationships.
 
-**Action:** Strengthen loyalty through rewards, exclusive perks, or early access to new products.
+- **Action :** Strengthen loyalty through rewards, exclusive perks, or early access to new products.
 
-**Key Observations:**
-- Churned Customers (19): High-risk customers who have already disengaged. These represent lost revenue and require win-back campaigns.
+#  **Key Observations :**
+- **Churned Customers (19) :** High-risk customers who have already disengaged. These represent lost revenue and require win-back campaigns.
 
-- Potential Churners (10): High-risk customers showing signs of disengagement. Immediate retention strategies are needed to prevent further loss.
+- **Potential Churners (10) :** High-risk customers showing signs of disengagement. Immediate retention strategies are needed to prevent further loss.
 
-- Cannot Be Defined (42): A large portion of customers lack clear segmentation, highlighting the need for better data collection and analysis.
+- **Cannot Be Defined (42) :** A large portion of customers lack clear segmentation, highlighting the need for better data collection and analysis.
 
-# **Actionable Steps:**
+#  **Actionable Steps :**
 
-1. **High-Risk Customers:** Focus on re-engagement and retention through personalized outreach and incentives.
+1.  **High-Risk Customers :** Focus on re-engagement and retention through personalized outreach and incentives.
 
-2. **Medium-Risk Customers:** Improve their experience with targeted offers and enhanced support.
+2.  **Medium-Risk Customers :** Improve their experience with targeted offers and enhanced support.
 
-3. **Low-Risk Customers:** Reward and nurture these loyal customers to maintain their engagement.
+3.  **Low-Risk Customers :** Reward and nurture these loyal customers to maintain their engagement.
 
-4. **Cannot Be Defined:** Enhance data collection and analysis to better understand and segment these customers.
+4.  **Cannot Be Defined :** Enhance data collection and analysis to better understand and segment these customers.
 
 
 
